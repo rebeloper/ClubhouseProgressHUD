@@ -11,6 +11,8 @@
 		C9F59401263078CD00ECFBE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F59400263078CD00ECFBE0 /* ContentView.swift */; };
 		C9F59403263078CE00ECFBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F59402263078CE00ECFBE0 /* Assets.xcassets */; };
 		C9F59406263078CE00ECFBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F59405263078CE00ECFBE0 /* Preview Assets.xcassets */; };
+		C9F5940F2630801400ECFBE0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F5940E2630801400ECFBE0 /* Service.swift */; };
+		C9F594122630808A00ECFBE0 /* ClubhouseHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F594112630808A00ECFBE0 /* ClubhouseHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C9F59402263078CE00ECFBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F59405263078CE00ECFBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9F59407263078CE00ECFBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F5940E2630801400ECFBE0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C9F594112630808A00ECFBE0 /* ClubhouseHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubhouseHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				C9F593FE263078CD00ECFBE0 /* ClubhouseProgressHUDApp.swift */,
 				C9F59400263078CD00ECFBE0 /* ContentView.swift */,
+				C9F5940E2630801400ECFBE0 /* Service.swift */,
+				C9F594112630808A00ECFBE0 /* ClubhouseHUD.swift */,
 				C9F59402263078CE00ECFBE0 /* Assets.xcassets */,
 				C9F59407263078CE00ECFBE0 /* Info.plist */,
 				C9F59404263078CE00ECFBE0 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F594122630808A00ECFBE0 /* ClubhouseHUD.swift in Sources */,
 				C9F59401263078CD00ECFBE0 /* ContentView.swift in Sources */,
 				C9F593FF263078CD00ECFBE0 /* ClubhouseProgressHUDApp.swift in Sources */,
+				C9F5940F2630801400ECFBE0 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
